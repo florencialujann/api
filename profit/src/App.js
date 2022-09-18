@@ -1,10 +1,14 @@
-import React from 'react';
+
 import './App.css';
-import './componentes/barra';
+import './componentes/miBarra';
+import miBarra from './componentes/miBarra';
+
 
 function App() {
   return (
-    <barra></barra>
+    <miBarra></miBarra>
+
+    
   );
 }
 
